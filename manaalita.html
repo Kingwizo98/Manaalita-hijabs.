@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en" class="bg-black text-white">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manaalita Hijabs</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    img {
+      loading: lazy;
+    }
+  </style>
+</head>
+<body class="bg-[#0D0D0D] text-white">
+  <!-- NAVIGATION -->
+  <nav class="flex justify-between items-center p-6 bg-[#0D0D0D]">
+    <h1 class="text-2xl font-bold text-purple-300">Manaalita Hijabs</h1>
+    <ul class="flex gap-6">
+      <li><a href="#" class="hover:text-pink-400">Home</a></li>
+      <li><a href="#collection" class="hover:text-pink-400">Collection</a></li>
+      <li><a href="#about" class="hover:text-pink-400">About</a></li>
+      <li><a href="#contact" class="hover:text-pink-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="text-center py-20 bg-gradient-to-r from-[#1a1a1a] to-[#2B0A3D]">
+    <h2 class="text-5xl font-extrabold text-purple-300">Grace in Every Fold</h2>
+    <p class="text-lg mt-4 text-gray-300">Explore the elegance of Manaalita Hijabs</p>
+    <button class="mt-6 px-6 py-3 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition">Shop Collection</button>
+  </section>
+
+  <!-- PRODUCT GRID -->
+  <section id="collection" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-10">
+    <div class="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-[0_0_10px_#FF6EC7] transition">
+      <img src="https://i.imgur.com/Uj5TvKa.jpg" alt="Rose Blush" class="w-full h-72 object-cover rounded mb-4" loading="lazy">
+      <h3 class="text-purple-300">Rose Blush</h3>
+      <p class="text-sm text-gray-400">22,000 TZS</p>
+    </div>
+    <div class="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-[0_0_10px_#FF6EC7] transition">
+      <img src="https://i.imgur.com/9a4CHsK.jpg" alt="Moonlight Mauve" class="w-full h-72 object-cover rounded mb-4" loading="lazy">
+      <h3 class="text-purple-300">Moonlight Mauve</h3>
+      <p class="text-sm text-gray-400">22,000 TZS</p>
+    </div>
+    <div class="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-[0_0_10px_#FF6EC7] transition">
+      <img src="https://i.imgur.com/yhOrJ1b.jpg" alt="Velvet Orchid" class="w-full h-72 object-cover rounded mb-4" loading="lazy">
+      <h3 class="text-purple-300">Velvet Orchid</h3>
+      <p class="text-sm text-gray-400">22,000 TZS</p>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-16 px-8 text-center bg-[#121212]">
+    <h2 class="text-3xl font-semibold text-purple-300 mb-4">About Manaalita</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto">Manaalita Hijabs is inspired by elegance, grace, and modesty. Our mission is to provide high-quality hijabs that make every woman feel confident and stylish. We blend tradition with modern beauty, offering hijabs for every occasion.</p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="text-center py-16 bg-[#1a1a1a]">
+    <h2 class="text-3xl font-semibold text-purple-300 mb-4">Get in Touch</h2>
+    <p class="text-gray-400 mb-8">Have a question or want to follow us?</p>
+    <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center mb-4">
+      <a href="https://wa.me/255775933933" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-green-500 text-white rounded-full hover:bg-green-600 transition">
+        <span>Chat on WhatsApp</span>
+      </a>
+      <a href="tel:+25575933933" class="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+        <span>Call Us</span>
+      </a>
+      <a href="https://instagram.com/manaalita_66" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition">
+        <span>Follow on Instagram</span>
+      </a>
+      <a href="https://www.snapchat.com/add/manaalita_66" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-yellow-400 text-black rounded-full hover:bg-yellow-300 transition">
+        <span>Add on Snapchat</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-gray-500 bg-[#0d0d0d] text-sm">
+    &copy; 2025 Manaalita Hijabs. All rights reserved.
+  </footer>
+</body>
+</html>
